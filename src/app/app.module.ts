@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { YoutubeComponent } from './youtube.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule
