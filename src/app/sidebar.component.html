@@ -1,0 +1,14 @@
+<div id="navBar">
+    <ul>
+        <li *ngFor="let episode of episodes"
+            [ngClass]="{ 'mouseOnLi': episode.mouseOn }"
+            (mouseover)="mouseOver(episode)"
+            (mouseout)="mouseOff(episode)"
+            (click)="setUrl(episode)">
+            {{episode.title}}
+        </li>
+    </ul>
+</div>
+<div id="youtubeVideo">
+    <iframe width="560" height="315" [src]="safeURL" frameborder="0" allowfullscreen></iframe>
+</div>

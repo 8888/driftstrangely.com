@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { YoutubeComponent } from './youtube.component';
+import { SidebarComponent } from './sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    YoutubeComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule

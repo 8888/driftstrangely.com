@@ -1,0 +1,28 @@
+#navBar {
+    float: left;
+}
+
+li {
+    font-family: Helvetica, sans-serif;
+    font-size: 16pt;
+    list-style: none;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#youtubeVideo {
+    width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mouseOnLi {
+    background-color: white;
+    color: black;
+}
+
+.mouseOffLi {
+    background-color: none;
+    color: white;
+}
