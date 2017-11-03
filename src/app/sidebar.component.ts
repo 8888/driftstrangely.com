@@ -16,11 +16,18 @@ export class SidebarComponent {
                 'id': 'trailer',
                 'title': 'Trailer',
                 'link': 'https://www.youtube.com/embed/K5IVpVFlEkE?rel=0',
-                'mouseOn': false},
+                'mouseOn': false
+            },
             {
                 'id': 'ep1',
                 'title': 'Episode 1: Philadelpha, PA',
                 'link': 'https://www.youtube.com/embed/YkLNQQKNu48?rel=0',
+                'mouseOn': false
+            },
+            {
+                'id': 'ep2',
+                'title': 'Episode 2: Barnegat, NJ',
+                'link': 'https://www.youtube.com/embed/C265tOB0riI',
                 'mouseOn': false
             }
         ];
